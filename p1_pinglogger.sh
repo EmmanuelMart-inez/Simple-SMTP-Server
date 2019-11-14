@@ -25,7 +25,8 @@ do
 		if [[ $dec  > 0 ]]
 		then
 #-#			echo "Está lenta la ip : $i, tiene una velocidad de: $a"
-			swaks --to user@example.com --header "Subject:A1 $i ;retardo_en_ping: $a ms"\
+			perl swaks.pl --to user@example.com --header \
+			"Subject:A1 $i ;retardo_en_ping: $a ms"\
 			 --body "IP:$i con respuesta de $a ms"  --server 127.0.0.1:1130 > /dev/null
 		fi
 	done
