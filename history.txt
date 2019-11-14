@@ -1,0 +1,150 @@
+   0 tce-ab
+   1 ls
+   2 cd Simple-SMTP-Server/
+   3 ls
+   4 source ./mailserver/bin/activate
+   5 ls
+   6 python smtp_server.py 
+   7 pip install Django==1.4
+   8 sudo pip install Django==1.4
+   9 ls
+  10 source ./mailserver/bin/activate
+  11 python smtp_server.py 
+  12 ls
+  13 nano p1_pinglogger.sh 
+  14 ./p1_pinglogger.sh 
+  15 ls
+  16 cd ..
+  17 ls
+  18 cp swaks Simple-SMTP-Server/swaks.pl
+  19 ls
+  20 cd Simple-SMTP-Server/
+  21 l
+  22 ls
+  23 ./p1_pinglogger.sh 
+  24 python smtp_server.py & ./p1_pinglogger.sh 
+  25 pwd
+  26 ls
+  27 ls /usr/local/tce.installed/
+  28 ls /usr/local/tce.installed | grep ango
+  29 tce-ab
+  30 deactivate
+  31 sudo pip3 install Django==1.4 
+  32 ls /usr/local/tce.installed | grep ango
+  33 Django
+  34 pip Django
+  35 pip django
+  36 pip list
+  37 pip show Django
+  38 ls
+  39 cd Simple-SMTP-Server/
+  40 ls
+  41 source ./mailserver/bin/activate
+  42 python smtp_server.py 
+  43 ./p1_pinglogger.sh 
+  44 ifconfig
+  45 ls
+  46 snmpwalk 
+  47 ifconfig
+  48 ping 10.0.1.2
+  49 ifconfig
+  50 ping 10.0.1.2
+  51 ping 10.0.1.1
+  52 ls
+  53 mkdir practica2CPUload
+  54 cp p1_pinglogger.sh practica2CPUload/p2_cpuload.sh
+  55 cp ips.txt practica2CPUload/
+  56 cp swaks.pl practica2CPUload/
+  57 cd practica2CPUload/
+  58 ls
+  59 chmod +x p2_cpuload.sh 
+  60 ls
+  61 nano p2_cpuload.sh 
+  62 snmpwalk -v 2c -c public 10.0.1.1 .1.3.6.1.2.1.25.3.3.1.2
+  63 nano p2_cpuload.sh 
+  64 ./p2_cpuload.sh 
+  65 ls
+  66 cat 8.8.8.8.txt 
+  67 nano ips.txt 
+  68 ./p2_cpuload.sh 
+  69 nano ips.txt 
+  70 nano p2_cpuload.sh 
+  71 ./p2_cpuload.sh 
+  72 nano p2_cpuload.sh 
+  73 ./p2_cpuload.sh 
+  74 nano p2_cpuload.sh 
+  75 ./p2_cpuload.sh 
+  76 nano p2_cpuload.sh 
+  77 ./p2_cpuload.sh 
+  78 nano p2_cpuload.sh 
+  79 ./p2_cpuload.sh 
+  80 nano p2_cpuload.sh 
+  81 ./p2_cpuload.sh 
+  82 nano p2_cpuload.sh 
+  83 ./p2_cpuload.sh 
+  84 nano p2_cpuload.sh 
+  85 ./p2_cpuload.sh 
+  86 snmpwalk -v 2c -c public 10.0.1.1 .1.3.6.1.2.1.25.3.3.1.2
+  87 nano p2_cpuload.sh 
+  88 ./p2_cpuload.sh 
+  89 nano p2_cpuload.sh 
+  90 ./p2_cpuload.sh 
+  91 nano p2_cpuload.sh 
+  92 ./p2_cpuload.sh 
+  93 git init 
+  94 git add .
+  95 git commit -m "practica2"
+  96 git config --global user.email "winnplayxd@gmail.com"
+  97 git config --global user.name "EmmanuelMart-inez"
+  98 git commit -m "practica2"
+  99 git push origin master
+ 100 git push -u origin master
+ 101 cd ..
+ 102 git push origin master
+ 103 ls
+ 104 cd practica2CPUload/
+ 105 git add .
+ 106 git push origin master
+ 107 cd ..
+ 108 git add .
+ 109 git push origin master
+ 110 ls
+ 111 git init
+ 112 git add .
+ 113 git commit -m "practica2" 
+ 114 git push origin master
+ 115 ls
+ 116 cd practica2CPUload/
+ 117 git add .
+ 118 git commit -m "practica 2" 
+ 119 git push origin master
+ 120 git push 
+ 121 ls
+ 122 cd ..
+ 123 git add practica2CPUload/*
+ 124 cd practica2CPUload/
+ 125 ls
+ 126 cd ..
+ 127 git add practica2CPUload/*
+ 128 git add practica2CPUload/
+ 129 git commit -m "p2"
+ 130 cd practica2CPUload/
+ 131 git add .
+ 132 git commit -m "p2"
+ 133 cd ..
+ 134 git add .
+ 135 git commit -m "p2"
+ 136 git remote add origin https://github.com/EmmanuelMart-inez/Simple-SMTP-Server.git
+ 137 git remote add origin https://github.com/EmmanuelMart-inez/Simple-SMTP-Server/practica2.git
+ 138 git remote add https://github.com/EmmanuelMart-inez/Simple-SMTP-Server/practica22.git
+ 139 git remote add https://github.com/EmmanuelMart-inez/Simple-SMTP-Server/p.git
+ 140 git remote add https://github.com/EmmanuelMart-inez/Simple-SMTP-Server.git
+ 141 git pull origin master
+ 142 git push origin master
+ 143 git rm -cached practica2CPUload/
+ 144 git rm --cached practica2CPUload/
+ 145 git add .
+ 146 git commit -m "p2"
+ 147 git push --all
+ 148 deactivate
+ 149 history >> history.txt
